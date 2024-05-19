@@ -20,9 +20,7 @@ export default function Home() {
         Leerjaar: 3 (2)<br/>
         Blokperiode: 4
       </p>
-      <div style={{width: "300px", height: "300px"}}>
-        <Image src="/images/DevNex Solutions.png" alt="DevNex Solutions Logo" layout="fill" objectFit="contain" />
-      </div>
+      <Image src="/images/DevNex Solutions.png" alt="DevNex Solutions Logo" width={200} height={200} />
     </div>
   );
 }
