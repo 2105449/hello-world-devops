@@ -1,9 +1,26 @@
 import Image from "next/image";
+import Head from "next/head";
 
 export default function Home() {
   return (
     <div>
-      Hello World!
+      <Head>
+        <title>Hello World!</title>
+      </Head>
+      <h1>Hello World!</h1>
+      <p>
+        Deze webpagina is gereserveerd voor de huiswerkopdrachten van module B2C6 - DevOps van Zuyd Hogeschool.
+      </p>
+      <p>
+        Gemaakt door: Dennis Bückers<br/>
+        Casusgroep: 01, DevNex Solutions<br/>
+        Studiejaar: 2023-2024<br/>
+        Opleiding: HBO-ICT<br/>
+        Leerjaar: 3 (2)<br/>
+        Blokperiode: 4
+      </p>
+      <Image src="/images/DevNex Solutions.png" alt="DevNex Solutions Logo" width={200} height={200} />
     </div>
   );
 }
+
