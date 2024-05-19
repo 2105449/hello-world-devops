@@ -7,10 +7,11 @@ export default function Home() {
       <Head>
         <title>Hello World!</title>
       </Head>
-      <h1>Hello World!</h1>
-      <p>
+      <h1 style={{fontWeight: "bold"}}>Hello World!</h1>
+      <p style={{fontStyle: "italic"}}>
         Deze webpagina is gereserveerd voor de huiswerkopdrachten van module B2C6 - DevOps van Zuyd Hogeschool.
       </p>
+      <br/>
       <p>
         Gemaakt door: Dennis Bückers<br/>
         Casusgroep: 01, DevNex Solutions<br/>
@@ -19,8 +20,9 @@ export default function Home() {
         Leerjaar: 3 (2)<br/>
         Blokperiode: 4
       </p>
-      <Image src="/images/DevNex Solutions.png" alt="DevNex Solutions Logo" width={200} height={200} />
+      <div style={{width: "300px", height: "300px"}}>
+        <Image src="/images/DevNex Solutions.png" alt="DevNex Solutions Logo" layout="fill" objectFit="contain" />
+      </div>
     </div>
   );
 }
-
